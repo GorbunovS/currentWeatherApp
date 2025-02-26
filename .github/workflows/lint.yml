@@ -9,6 +9,8 @@
               - uses: actions/setup-node@v3
                 with:
                   node-version: '18'
+              - name: Fix Husky permissions
+                run: chmod +x .husky/*
               - run: npm install
               - run: npm run lint
         

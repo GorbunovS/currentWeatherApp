@@ -5,7 +5,7 @@
   "scripts": {
     "lint": "eslint . --ext .js,.jsx,.ts,.tsx,.html,.css",
     "format": "prettier --write .",
-    "prepare": "husky install"
+     "prepare": "chmod +x .husky/* && husky install"
   },
   "keywords": [],
   "author": "",
